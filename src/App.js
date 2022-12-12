@@ -4,7 +4,7 @@ import Home from './Components/Home';
 import AllUsers from './Components/AllUsers';
 import AddUser from './Components/AddUser';
 import EditUser from './Components/EditUser';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
