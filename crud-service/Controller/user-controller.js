@@ -41,7 +41,7 @@ export const editUser = async (request, response) => {
         const user = await userSchema.updateOne({_id: request.params.id}, editUser);
         return response.status(201).json(editUser);
     }catch(error){
-        return response.status(500).json({message : error.message})
+        return response.status(500).json({message : error.message});
     }
 }
 
