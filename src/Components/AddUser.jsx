@@ -27,7 +27,7 @@ const AddUser = () => {
    const onValueChange = (e) => {
         //console.log(e.target.name, e.target.value)
         setUser({...user, [e.target.name]: e.target.value})
-        //console.log(user);
+        console.log(user);
     }
     const addUserDetails = async () => {
         await addUser(user);
